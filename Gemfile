@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -46,3 +45,42 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'nifty-generators'
+gem 'hirb'
+
+gem 'mysql2', '~> 0.3.18'
+
+gem 'carrierwave'
+# gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem 'carrierwave-ftp', :require => 'carrierwave/storage/sftp' # SFTP only
+#  gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
+#gem 'fog-aws'
+gem 'fog'
+
+gem 'whenever'
+# gem 'bson_ext'
+#gem 'nokogiri'
+gem 'pry'
+gem 'kaminari',  github: "amatsuda/kaminari", branch: '0-17-stable'
+
+gem "mocha"
+
+gem "devise"
+
+gem 'font-awesome-sass'
+
+gem 'nested_form'
+
+gem 'brakeman' # For check Secitury
+
+gem 'capistrano', group: :development
+gem 'capistrano-rails', group: :development
+gem 'capistrano-bundler', group: :development
+gem 'capistrano3-puma', group: :development
+
+gem "instagram"
+
+gem 'rails_emoji'
+
+gem 'dotenv-rails'
